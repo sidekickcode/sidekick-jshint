@@ -15,7 +15,7 @@
     "displayCategory": "quality",
     "shortDescription": "Checks your code for quality issues.",
     "underlyingAnalyser": {
-      "name": "jshint",
-      "url": "https://github.com/jshint/jshint"
+        "name": "jshint",
+        "url": "https://github.com/jshint/jshint"
     }
 }

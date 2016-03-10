@@ -1,7 +1,7 @@
 {
   "name": "sidekick-jshint",
-  "version": "1.0.0",
-  "description": "Lints your JavaScript using 'jshint'",
+  "version": "1.0.1",
+  "description": "Sidekick analyser that wraps 'jshint'",
   "main": "jshint.js",
   "directories": {
     "test": "test"
@@ -30,6 +30,7 @@
     "easy-stdin": "^1.0.1",
     "jshint": "^2.8.0",
     "shelljs": "~0.5.3",
-    "strip-json-comments": "^1.0.4"
+    "strip-json-comments": "^1.0.4",
+    "sidekick-analyser": "^1.1.0"
   }
 }
