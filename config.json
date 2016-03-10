@@ -1,0 +1,21 @@
+{
+    "analyser": "sidekick-jshint",
+    "version": "1.0.0",
+    "interpreter": "node",
+    "script": "jshint.js",
+    "scope": "blob",
+    "category": "object",
+    "configurable": true,
+    "configFiles": [
+        ".jshintrc"
+    ],
+    "language": "js",
+    "shortName": "jshint",
+    "displayName": "Code issues (jshint)",
+    "displayCategory": "quality",
+    "shortDescription": "Checks your code for quality issues.",
+    "underlyingAnalyser": {
+      "name": "jshint",
+      "url": "https://github.com/jshint/jshint"
+    }
+}

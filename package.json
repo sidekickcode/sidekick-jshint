@@ -1,0 +1,35 @@
+{
+  "name": "sidekick-jshint",
+  "version": "1.0.0",
+  "description": "Lints your JavaScript using 'jshint'",
+  "main": "jshint.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "code",
+    "quality",
+    "dependencies",
+    "security"
+  ],
+  "homepage": "https://sidekickcode.com",
+  "bugs": {
+    "url": "https://github.com/sidekickcode/sidekick-jshint/issues"
+  },
+  "author": "We Are Sidekick Ltd.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sidekickcode/sidekick-jshint.git"
+  },
+  "dependencies": {
+    "easy-stdin": "^1.0.1",
+    "jshint": "^2.8.0",
+    "shelljs": "~0.5.3",
+    "strip-json-comments": "^1.0.4"
+  }
+}

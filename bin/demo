@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo Demoing on sidekick_reporter.js
+
+bin/blob < sidekick_reporter.js
+
+echo Demoing on test/dodgy.js
+
+bin/blob < test/dodgy.js
+
+echo Demoing on test/dodgy.js with header
+
+export HAS_HEADER=0
+bin/blob < test/with_config 

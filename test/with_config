@@ -1,0 +1,14 @@
+{"configFiles":{".jshintrc":"{\n  \"node\": true,\n  \"browser\": true,\n  \"esnext\": true,\n  \"bitwise\": true,\n  \"camelcase\": false,\n  \"curly\": true,\n  \"eqeqeq\": true,\n  \"immed\": true,\n  \"latedef\": \"nofunc\",\n  \"newcap\": true,\n  \"noarg\": true,\n  \"regexp\": true,\n  \"undef\": true,\n  \"unused\": true,\n  \"strict\": false,\n  \"trailing\": true,\n  \"smarttabs\": true,\n  \"-W026\": true\n}"}}
+
+while(foo = window.location) {
+  fn(foo);
+}
+
+function foo(i) {
+  return
+    i++;
+}
+
+lbeh = "meh"
+
+i == "0"(foo);

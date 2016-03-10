@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var conf = require("fs").readFileSync(__dirname + "/../config/jshint.yml","utf8")
+var parsed = require("js-yaml").load(conf);
+require("fs").writeFileSync(__dirname + "/../config/jshint.json",JSON.stringify(parsed));
