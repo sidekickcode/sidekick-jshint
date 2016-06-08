@@ -1,6 +1,6 @@
 "use strict";
 
-var annotationDefaults = {analyserName: 'jshint'};
+var annotationDefaults = {analyserName: 'sidekick-jshint'};
 
 exports.reporter = function (results, data, opts) {
   console.log(JSON.stringify(transform(results, data, opts)));

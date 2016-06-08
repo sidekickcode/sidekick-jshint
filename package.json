@@ -27,10 +27,10 @@
     "url": "https://github.com/sidekickcode/sidekick-jshint.git"
   },
   "dependencies": {
+    "@sidekick/analyser-common": "^1.0.2",
     "easy-stdin": "^1.0.1",
     "jshint": "^2.8.0",
     "shelljs": "~0.5.3",
-    "strip-json-comments": "^1.0.4",
-    "sidekick-analyser": "^1.1.0"
+    "strip-json-comments": "^1.0.4"
   }
 }

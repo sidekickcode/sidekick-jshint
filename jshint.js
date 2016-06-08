@@ -3,7 +3,7 @@
 const reporter = require("./sidekick_reporter").reporter;
 const baseConfig = require("./config/jshint.json");
 
-const sidekickAnalyser = require("sidekick-analyser");
+const sidekickAnalyser = require("@sidekick/analyser-common");
 const stripJsonComments = require("strip-json-comments");
 
 const JSHint = require("jshint").JSHINT;

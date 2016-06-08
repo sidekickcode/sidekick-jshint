@@ -1,6 +1,6 @@
 {
     "analyser": "sidekick-jshint",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "interpreter": "node",
     "script": "jshint.js",
     "scope": "blob",
