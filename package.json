@@ -1,6 +1,6 @@
 {
   "name": "sidekick-jshint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Sidekick analyser that wraps 'jshint'",
   "main": "jshint.js",
   "directories": {
